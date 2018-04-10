@@ -16,12 +16,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ClassicActivity" />
-        <activity android:name=".CountryActivity" />
-        <activity android:name=".AfricanActivity" />
-        <activity android:name=".JazzActivity" />
-        <activity android:name=".RockActivity" />
-        <activity android:name=".PopActivity"></activity>
+        
+        <activity
+            android:name=".ClassicActivity"
+            android:label="@string/classic_category" />
+
+        <activity
+            android:name=".CountryActivity"
+            android:label="@string/country_category" />
+
+        <activity
+            android:name=".AfricanActivity"
+            android:label="@string/african_category" />
+
+        <activity
+            android:name=".JazzActivity"
+            android:label="@string/jazz_category" />
+
+        <activity
+            android:name=".RockActivity"
+            android:label="@string/rock_category" />
+
+        <activity
+            android:name=".PopActivity"
+            android:label="@string/pop_category">
+
+        </activity>
     </application>
 
 </manifest>
