@@ -17,18 +17,14 @@ public class ClassicActivity extends AppCompatActivity {
         setContentView ( R.layout.activity_classic );
 
         // Creating an array of Songs called songs.
-        ArrayList<Song> classic = new ArrayList<Song> (  );
-
-        //classic.add();
-        /*Song s = new Song ("Start Me Up", "The Rolling Stones");
-        classic.add(s);*/
+        ArrayList<Song> songs = new ArrayList<Song> ();
 
         // Better way of creating new song object
-        //classic.add("Start Me Up");
-        classic.add(new Song("Start Me Up", "The Rolling Stones"));
-
-
-        classic.add (new Song("Sweet Home Alabama", " Lynyrd Skynyrd, Blackberry Smoke"));
+        songs.add ( new Song ( "Start Me Up", "The Rolling Stones" ) );
+        songs.add ( new Song ( "Sweet Home Alabama", " Lynyrd Skynyrd, Blackberry Smoke" ) );
+        songs.add ( new Song ( "Stuck in the Middle with You", "Stealers Wheel" ) );
+        songs.add ( new Song ( "Sweet Emotion", "Aerosmith" ) );
+        songs.add ( new Song ( "Glory Days", "Bruce Springsteen" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -36,13 +32,12 @@ public class ClassicActivity extends AppCompatActivity {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        SongAdapter songAdapter =
-                new SongAdapter(this, classic);
+        SongAdapter songAdapter = new SongAdapter ( this, songs );
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_numbers.xml layout file.
-        ListView listView = (ListView) findViewById(R.id.classicList);
+        ListView listView = (ListView) findViewById ( R.id.songList );
 
         // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
         // {@link ListView} will display list items for each word in the list of words.
