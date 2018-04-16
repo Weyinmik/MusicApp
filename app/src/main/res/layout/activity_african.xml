@@ -11,5 +11,6 @@
     android:paddingTop="16dp"
     tools:context="com.example.koloh.musicapp.AfricanActivity">
 
+
 </ListView>
 

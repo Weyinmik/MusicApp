@@ -17,16 +17,16 @@ public class PopActivity extends AppCompatActivity {
 
         // Better way of creating new song object
         //classic.add("Start Me Up");
-        songs.add ( new Song ( "The Middle", "Zedd, Maren Morris & Grey" ) );
-        songs.add ( new Song ( "Meant To Be", " Bebe Rexha & Florida Georgia Line" ) );
-        songs.add ( new Song ( "Never Be The Same", "Camila Cabello" ) );
-        songs.add ( new Song ( "Finesse", " Bruno Mars & Cardi B" ) );
-        songs.add ( new Song ( "Him & I", "G-Eazy & Halsey" ) );
-        songs.add ( new Song ( "Pray For Me", "The Weeknd & Kendrick Lamar" ) );
-        songs.add ( new Song ( "God's Plan", "Drake" ) );
-        songs.add ( new Song ( "New Rules", "Dua Lipa" ) );
-        songs.add ( new Song ( "Perfect", "Ed Sheeran" ) );
-        songs.add ( new Song ( "Wait", "Maroon 5" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "The Middle", "Zedd, Maren Morris & Grey" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Meant To Be", " Bebe Rexha & Florida Georgia Line" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Never Be The Same", "Camila Cabello" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Finesse", " Bruno Mars & Cardi B" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Him & I", "G-Eazy & Halsey" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Pray For Me", "The Weeknd & Kendrick Lamar" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "God's Plan", "Drake" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "New Rules", "Dua Lipa" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Perfect", "Ed Sheeran" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Wait", "Maroon 5" ) );
 
 
         //LISTVIEW ADAPTER

@@ -17,11 +17,11 @@ public class CountryActivity extends AppCompatActivity {
 
         // Better way of creating new song object
         //classic.add("Start Me Up");
-        songs.add ( new Song ( "Walk On By", "Leroy Van Dyke" ) );
-        songs.add ( new Song ( "Wanted", " Hunter Hayes" ) );
-        songs.add ( new Song ( "Take Your Time", "Sam Hunt" ) );
-        songs.add ( new Song ( "There Goes My Everything", "Jack Greene" ) );
-        songs.add ( new Song ( "Love's Gonna Live Here", "Buck Owens" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Walk On By", "Leroy Van Dyke" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Wanted", " Hunter Hayes" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Take Your Time", "Sam Hunt" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "There Goes My Everything", "Jack Greene" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Love's Gonna Live Here", "Buck Owens" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

@@ -17,11 +17,11 @@ public class JazzActivity extends AppCompatActivity {
 
         // Better way of creating new song object
         //classic.add("Start Me Up");
-        songs.add ( new Song ( "Take Five", "Dave Brubeck" ) );
-        songs.add ( new Song ( "So What", " Miles Davis" ) );
-        songs.add ( new Song ( "Take the A Train", "Duke Ellington" ) );
-        songs.add ( new Song ( "Round Midnight", " Thelonious Mong" ) );
-        songs.add ( new Song ( "Stolen Moments", "Oliver Nelson" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Take Five", "Dave Brubeck" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "So What", " Miles Davis" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Take the A Train", "Duke Ellington" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Round Midnight", " Thelonious Mong" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Stolen Moments", "Oliver Nelson" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

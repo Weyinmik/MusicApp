@@ -1,7 +1,12 @@
 package com.example.koloh.musicapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -18,11 +23,11 @@ public class AfricanActivity extends AppCompatActivity {
 
         // Better way of creating new song object
         //classic.add("Start Me Up");
-        songs.add ( new Song ( "You are my African Queen", "2face Idibia" ) );
-        songs.add ( new Song ( "Come On Come On", " Rhoda K Shelbie" ) );
-        songs.add ( new Song ( "Sabula", "Fille" ) );
-        songs.add ( new Song ( "If", "Davido" ) );
-        songs.add ( new Song ( "Bank Alert", "P Square" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "You are my African Queen", "2face Idibia" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Come On Come On", " Rhoda K Shelbie" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Sabula", "Fille" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "If", "Davido" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Bank Alert", "P Square" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -40,5 +45,7 @@ public class AfricanActivity extends AppCompatActivity {
         // Do this by calling the setAdapter method on the {@link ListView} object and pass in
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
         listView.setAdapter ( songAdapter );
+
+
     }
 }

@@ -20,11 +20,11 @@ public class ClassicActivity extends AppCompatActivity {
         ArrayList<Song> songs = new ArrayList<Song> ();
 
         // Better way of creating new song object
-        songs.add ( new Song ( "Start Me Up", "The Rolling Stones" ) );
-        songs.add ( new Song ( "Sweet Home Alabama", " Lynyrd Skynyrd, Blackberry Smoke" ) );
-        songs.add ( new Song ( "Stuck in the Middle with You", "Stealers Wheel" ) );
-        songs.add ( new Song ( "Sweet Emotion", "Aerosmith" ) );
-        songs.add ( new Song ( "Glory Days", "Bruce Springsteen" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Start Me Up", "The Rolling Stones" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Sweet Home Alabama", " Lynyrd Skynyrd, Blackberry Smoke" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Stuck in the Middle with You", "Stealers Wheel" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Sweet Emotion", "Aerosmith" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Glory Days", "Bruce Springsteen" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

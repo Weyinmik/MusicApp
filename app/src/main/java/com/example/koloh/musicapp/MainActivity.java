@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView ( R.layout.activity_main );
 
         // Find the View that shows the classic music category
-        TextView numbers = (TextView) findViewById ( R.id.classic );
+        TextView classic = (TextView) findViewById ( R.id.classic );
 
 // Set a click listener on that View
-        numbers.setOnClickListener ( new View.OnClickListener () {
+        classic.setOnClickListener ( new View.OnClickListener () {
             // The code in this method will be executed when the classic music View is clicked on.
             @Override
             public void onClick(View view) {
@@ -29,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         // Find the View that shows the country music category
-        TextView colors = (TextView) findViewById ( R.id.country );
+        TextView country = (TextView) findViewById ( R.id.country );
 
         // Set a click listener on the country music View
-        colors.setOnClickListener ( new View.OnClickListener () {
+        country.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View view) {
                 Intent countryIntent = new Intent ( MainActivity.this, CountryActivity.class );
@@ -41,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
         } );
 
         // Find the View that shows the african music category
-        TextView phrases = (TextView) findViewById ( R.id.african );
+        TextView african = (TextView) findViewById ( R.id.african );
 
         // Set a click View that shows the african music Category
-        phrases.setOnClickListener ( new View.OnClickListener () {
+        african.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View v) {
                 Intent africanIntent = new Intent ( MainActivity.this, AfricanActivity.class );
@@ -87,5 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity ( popIntent );
             }
         } );
+
+
     }
 }

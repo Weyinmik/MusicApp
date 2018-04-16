@@ -18,11 +18,11 @@ public class RockActivity extends AppCompatActivity {
 
         // Better way of creating new song object
         //classic.add("Start Me Up");
-        songs.add ( new Song ( "Bohemian Rhapsody", "Queen" ) );
-        songs.add ( new Song ( "Dream On", " Aerosmith" ) );
-        songs.add ( new Song ( "Born to be wild", "Steppenwolf" ) );
-        songs.add ( new Song ( "Stairway to heaven", " Led Zeppelin" ) );
-        songs.add ( new Song ( "Sweet child O'mine", "Guns N' Roses" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Bohemian Rhapsody", "Queen" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Dream On", " Aerosmith" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Born to be wild", "Steppenwolf" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Stairway to heaven", " Led Zeppelin" ) );
+        songs.add ( new Song ( R.drawable.ic_audiotrack_black_24dp, "Sweet child O'mine", "Guns N' Roses" ) );
 
         //LISTVIEW ADAPTER
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

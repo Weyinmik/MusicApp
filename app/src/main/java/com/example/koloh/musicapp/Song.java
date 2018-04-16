@@ -7,10 +7,12 @@ package com.example.koloh.musicapp;
 public class Song {
 
     /** Default song list title */
+    private int mImageResourceId;
     private String mSongTitle;
 
     /** Song artist name */
     private String mSongArtist;
+
 
     /**
      * Create a new Song object.
@@ -19,9 +21,18 @@ public class Song {
      *                           (such as English)
      * @param songArtist is the word in the Miwok language
      */
-    public Song(String songTitle, String songArtist) {
+    public Song(int imageResourceId, String songTitle, String songArtist) {
+        mImageResourceId = imageResourceId;
         mSongTitle = songTitle;
         mSongArtist = songArtist;
+
+    }
+
+    /**
+     * Get the image resource ID
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 
     /**
@@ -37,5 +48,6 @@ public class Song {
     public String getSongArtist() {
         return mSongArtist;
     }
+
 
 }
