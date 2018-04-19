@@ -9,75 +9,51 @@
 
     <TextView
         android:id="@+id/classic"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#000"
-        android:text="Classic Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_classicActivity"
+        android:text="@string/classic_category" />
 
 
     <TextView
         android:id="@+id/country"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#99004d"
-        android:text="Country Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_countryActivity"
+        android:text="@string/country_category" />
 
     <TextView
         android:id="@+id/african"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#1e174d"
-        android:text="African Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_africanActivity"
+        android:text="@string/african_category" />
 
     <TextView
         android:id="@+id/jazz"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#a10000"
-        android:text="Jazz Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_jazzActivity"
+        android:text="@string/jazz_category" />
 
     <TextView
         android:id="@+id/rock"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#a25203"
-        android:text="Rock Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_rockActivity"
+        android:text="@string/rock_category" />
 
     <TextView
         android:id="@+id/pop"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:gravity="center_vertical"
-        android:padding="16dp"
-        android:textStyle="bold"
+        style="@style/CustomizedLayoutViewStyle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:background="#8300ff"
-        android:text="Pop Music" />
+        android:textColor="@color/text_color_main"
+        android:background="@color/background_color_popActivity"
+        android:text="@string/pop_category" />
 
 </LinearLayout>

@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color in the Main Activity Layout-->
+    <color name="background_color_popActivity">#8300ff</color>
+    <color name="background_color_rockActivity">#a25203</color>
+    <color name="background_color_jazzActivity">#a10000</color>
+    <color name="background_color_africanActivity">#1e174d</color>
+    <color name="background_color_countryActivity">#99004d</color>
+    <color name="background_color_classicActivity">#000</color>
+
+    <!-- Text color in the Main Activity Layout-->
+    <color name="text_color_main">#ffffff</color>
 </resources>

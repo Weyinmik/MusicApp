@@ -2,22 +2,22 @@
     <!--Application Title -->
     <string name="app_name">Music App</string>
 
-    <!--Category name for Classic Music -->
+    <!--Names for Music Categories -->
     <string name="classic_category">Classic Music</string>
-
-    <!--Category name for Country Music -->
     <string name="country_category">Country Music</string>
-
-    <!--Category name for African Music -->
     <string name="african_category">African Music</string>
-
-    <!--Category name for Jazz Music -->
     <string name="jazz_category">Jazz Music</string>
-
-    <!--Category name for Rock Music -->
     <string name="rock_category">Rock Music</string>
-
-    <!--Category name for Pop Music -->
     <string name="pop_category">Pop Music</string>
+
+    <!--Category name for Music Category header in each Activities opened -->
+    <string name="classic_category_header">Classic Song List and Artist</string>
+    <string name="country_category_header">Country Song List and Artist</string>
+    <string name="african_category_header">African Song List and Artist</string>
+    <string name="jazz_category_header">Jazz Song List and Artist</string>
+    <string name="rock_category_header">Rock Song List and Artist</string>
+    <string name="pop_category_header">Pop Song List and Artist</string>
+
+
 
 </resources>

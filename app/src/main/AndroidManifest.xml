@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,29 +22,31 @@
             </intent-filter>
         </activity>
 
+
+
         <activity
             android:name=".ClassicActivity"
-            android:label="@string/classic_category" />
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".CountryActivity"
-            android:label="@string/country_category" />
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".AfricanActivity"
-            android:label="@string/african_category" />
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".JazzActivity"
-            android:label="@string/jazz_category" />
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".RockActivity"
-            android:label="@string/rock_category" />
+            android:parentActivityName=".MainActivity"/>
 
         <activity
             android:name=".PopActivity"
-            android:label="@string/pop_category">
+            android:parentActivityName=".MainActivity">
 
 
         </activity>
