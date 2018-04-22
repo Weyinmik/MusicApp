@@ -15,7 +15,7 @@ public class ClassicActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_classic );
+        setContentView ( R.layout.song_list );
 
         // Create a back Action arrow to go back to main Activity
         getSupportActionBar ().setTitle ("Classic Song List and Artist");

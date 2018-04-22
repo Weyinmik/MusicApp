@@ -11,7 +11,7 @@ public class RockActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_rock );
+        setContentView ( R.layout.song_list );
 
         // Create a back Action arrow to go back to main Activity
         getSupportActionBar ().setTitle ("Rock Song List and Artist");

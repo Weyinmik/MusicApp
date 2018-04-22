@@ -12,7 +12,7 @@ public class PopActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_pop );
+        setContentView ( R.layout.song_list );
 
         // Create a back Action arrow to go back to main Activity
         getSupportActionBar ().setTitle ("Pop Song List and Artist");

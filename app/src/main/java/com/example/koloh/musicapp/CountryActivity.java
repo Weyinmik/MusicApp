@@ -12,7 +12,7 @@ public class CountryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_country );
+        setContentView ( R.layout.song_list );
 
         // Create a back Action arrow to go back to main Activity
         getSupportActionBar ().setTitle ("Country Song List and Artist");

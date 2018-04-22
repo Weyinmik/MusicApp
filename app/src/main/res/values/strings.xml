@@ -8,6 +8,8 @@
     <string name="african_category">African Music</string>
     <string name="jazz_category">Jazz Music</string>
     <string name="rock_category">Rock Music</string>
+
+    <!--Category name for Pop Music -->
     <string name="pop_category">Pop Music</string>
 
     <!--Category name for Music Category header in each Activities opened -->
@@ -17,7 +19,5 @@
     <string name="jazz_category_header">Jazz Song List and Artist</string>
     <string name="rock_category_header">Rock Song List and Artist</string>
     <string name="pop_category_header">Pop Song List and Artist</string>
-
-
 
 </resources>
